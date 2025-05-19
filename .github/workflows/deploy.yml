@@ -3,12 +3,11 @@ name: Deploy to GitHub Pages
 on:
     push:
         branches:
-            - main # Trigger på push till main
+            - main
 
 jobs:
     build-and-deploy:
         runs-on: ubuntu-latest
-
         steps:
             - name: Checkout
               uses: actions/checkout@v3
@@ -24,9 +23,15 @@ jobs:
             - name: Build
               run: npm run build
 
+            - name: Setup Git config
+              run: |
+                  git config --global user.name 'github-actions[bot]'
+                  git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v4
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
                   publish_dir: ./dist
                   publish_branch: gh-pages
+                  force_orphan: true
