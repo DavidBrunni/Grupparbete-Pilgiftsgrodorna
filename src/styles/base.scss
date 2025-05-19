@@ -1,0 +1,47 @@
+@import 'FrogStyles/FrogStylesMobile.scss';
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 100%;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../assets/figma_components/main-background.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(1px);
+    z-index: -1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.game-page::before {
+    background-image: url('../assets/figma_components/game-background.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.startpage-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}

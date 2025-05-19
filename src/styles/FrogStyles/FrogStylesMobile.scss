@@ -1,0 +1,116 @@
+// Placement and size of frogs in CardArticle.vue
+
+.info-card {
+    .blue-frog {
+        width: 100px;
+        height: auto;
+        position: absolute;
+        left: 180px;
+        top: -28px;
+    }
+
+    .purple-frog {
+        transform: rotateY(180deg);
+        width: 120px;
+        height: auto;
+        position: absolute;
+        left: 182px;
+        top: 138px;
+    }
+
+    .yellow-blue-frog {
+        transform: rotateY(180deg);
+        width: 140px;
+        height: auto;
+        position: absolute;
+        left: -15px;
+        bottom: 220px;
+    }
+
+    .red-frog {
+        transform: rotateY(180deg);
+        width: 170px;
+        height: auto;
+        position: absolute;
+        left: 145px;
+        bottom: -53px;
+    }
+
+    .yellow-frog {
+        width: 115px;
+        height: auto;
+        position: absolute;
+        left: -10px;
+        bottom: 220px;
+    }
+}
+
+// Placement and size of frogs in WelcomeCard.vue
+
+.welcome-frogs {
+    .red-frog {
+        width: 80px;
+        height: auto;
+        position: absolute;
+        left: 10px;
+        bottom: 25px;
+    }
+
+    .blueyellow-frog {
+        width: 80px;
+        height: auto;
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+    }
+}
+
+// Placement and size of frogs in InfoGameCard.vue
+
+.info-game-card {
+    .blue-frog {
+        width: 90px;
+        height: auto;
+        position: absolute;
+        right: -35px;
+        top: -30px;
+    }
+}
+
+.frog-cage {
+    position: fixed;
+    bottom: 60px;
+    left: 50%;
+
+    .red-frog {
+        position: absolute;
+        transform: rotateY(180deg);
+        width: 80px;
+        height: auto;
+        bottom: 1px;
+        left: 63px;
+        rotate: 10deg;
+    }
+
+    .yellow-blue-frog {
+        width: 80px;
+        height: auto;
+        transform: rotateY(180deg);
+        position: absolute;
+        left: -135px;
+        bottom: 10px;
+        rotate: 10deg;
+    }
+}
+
+// Placement and size of frogs in PopUp.vue
+
+div {
+    .red-frog {
+        position: absolute;
+        width: 185px;
+        height: auto;
+        bottom: 110px;
+        left: -60px;
+    }
+}

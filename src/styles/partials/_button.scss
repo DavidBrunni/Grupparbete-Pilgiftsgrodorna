@@ -1,0 +1,12 @@
+@use '_variables.scss' as *;
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: $button-fs;
+    cursor: pointer;
+
+    &:hover {
+        color: red;
+    }
+}

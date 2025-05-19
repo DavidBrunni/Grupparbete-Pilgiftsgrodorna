@@ -1,0 +1,16 @@
+@import 'FrogStyles/FrogStylesDesktop.scss';
+
+:root {
+    background-size: cover;
+}
+
+body {
+    article {
+        flex-direction: column;
+        justify-content: start;
+    }
+}
+
+.startpage-container {
+    width: 1124px;
+}

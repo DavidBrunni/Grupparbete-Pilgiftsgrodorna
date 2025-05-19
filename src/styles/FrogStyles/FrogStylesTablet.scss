@@ -1,0 +1,70 @@
+// Placement and size of frogs in CardArticle.vue
+
+.info-card {
+    .blue-frog {
+        width: 130px;
+        left: 470px;
+        top: -40px;
+    }
+
+    .purple-frog {
+        width: 130px;
+        left: 488px;
+        top: 125px;
+    }
+
+    .yellow-blue-frog {
+        width: 170px;
+        left: -70px;
+        bottom: 150px;
+    }
+
+    .red-frog {
+        width: 220px;
+        left: 415px;
+        bottom: -33px;
+    }
+
+    .yellow-frog {
+        width: 180px;
+        left: 1px;
+        bottom: 145px;
+    }
+}
+
+// Placement and size of frogs in WelcomeCard.vue
+
+.welcome-frogs {
+    .red-frog {
+        width: 120px;
+        left: 50px;
+        bottom: 75px;
+    }
+
+    .blueyellow-frog {
+        width: 140px;
+        right: 50px;
+        bottom: 60px;
+    }
+}
+
+// Placement and size of frogs in InfoGameCard.vue
+
+.info-game-card {
+    .blue-frog {
+        width: 130px;
+        height: auto;
+        position: absolute;
+        right: -30px;
+        top: -50px;
+    }
+}
+
+// Placement and size of frogs in PopUp.vue
+
+div {
+    .red-frog {
+        width: 180px;
+        bottom: 140px;
+    }
+}

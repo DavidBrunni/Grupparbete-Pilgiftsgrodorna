@@ -1,0 +1,84 @@
+@use '_variables.scss' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&family=Luckiest+Guy&family=RocknRoll+One&display=swap');
+
+p {
+    font-family: $p-font;
+    font-size: $p-fs-mobile;
+    line-height: 25px;
+}
+
+h1 {
+    font-family: $h1-font;
+    font-size: $h1-fs-mobile;
+}
+
+h2 {
+    font-family: $h2-font;
+    font-size: $h2-fs-mobile;
+}
+
+h3 {
+    font-family: $h3-font;
+    font-size: $h3-fs-mobile;
+}
+
+button {
+    font-family: $button-font;
+    font-size: $button-fs;
+}
+
+p,
+h1,
+h2,
+h3 {
+    color: $text-color;
+}
+
+a,
+li,
+nav {
+    font-family: $link-font;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (min-width: 834px) {
+    p {
+        font-size: $p-fs-tablet;
+    }
+
+    h1 {
+        font-size: $h1-fs-tablet;
+    }
+
+    h2 {
+        font-size: $h2-fs-tablet;
+    }
+
+    h3 {
+        font-size: $h3-fs-tablet;
+    }
+
+    a {
+        font-size: $link-fs-tablet;
+    }
+}
+
+@media (min-width: 1280px) {
+    p {
+        font-size: $p-fs-desktop;
+    }
+
+    h1 {
+        font-size: $h1-fs-desktop;
+    }
+
+    h2 {
+        font-size: $h2-fs-desktop;
+    }
+
+    h3 {
+        font-size: $h3-fs-desktop;
+    }
+}
